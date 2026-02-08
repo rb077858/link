@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+<body>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get("code") || "NO_CODE";
+
+  fetch("https://script.google.com/macros/s/AKfycbzNkTYAC4Fxpdl8psXjA8fcihSJZNQNEnGPLQMlOFBc6I1Buaw9mYhsH0ETA5iZdVPu/exec?action=click&code=" + code);
+
+  window.location.href = "https://whatsapp.com/channel/0029Vb5gbbO42DchUX8Sy83G";
+</script>
+</body>
+</html>
